@@ -31,6 +31,7 @@ public class App {
                 page = 0;
             }
         }
+        sc.close();
     }
 
     private static int page_1(Scanner sc, List<Student> students) {
